@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Nunes | Desenvolvedora Web</title>
+    <link rel="stylesheet" href="/static/style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">AN.</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio">
+        <div class="container">
+            <h1>Anna Nunes</h1>
+            <p class="subtitle">Desenvolvedora Web</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="profile">
+            <div class="container">
+                <div class="profile-content">
+                    <div class="profile-image">
+                        <!-- Foto da desenvolvedora -->
+                        <div class="image-container">
+                            <img src="/static/img/IMG_0854_VSCO.JPEG" alt="Anna Nunes" class="profile-img">
+                        </div>
+                    </div>
+                    <div class="profile-text">
+                        <h2>Sobre Mim</h2>
+                        <p>Sou Anna Luiza, estudante de Desenvolvimento de Sistemas, com conhecimento em lógica de programação, desenvolvimento web e banco de dados. Tenho inglês intermediário e estou em constante evolução, buscando oportunidades para aplicar meus conhecimentos e contribuir com projetos inovadores. Valorizo o trabalho em equipe, a organização e a aprendizagem contínua.
+                            Estou sempre aberta a aprender e crescer, tanto profissionalmente quanto pessoalmente.</p>
+                        <p>Com habilidades em HTML, CSS, JavaScript e outras tecnologias web modernas, estou sempre buscando aprender e aplicar as melhores práticas de desenvolvimento.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Front-end</h3>
+                        <p>HTML5, CSS3, JavaScript, Python</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Design</h3>
+                        <p>Canva, Miro, Responsive Design e Figma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Espaço reservado para a foto do projeto -->
+                            <div class="project-image-placeholder">
+                                <img src="/static/img/Pagina Index.png" alt="Jogo cartas" class="profile-img">
+
+                            </div>
+                        </div>
+                        <h3>Cartas da realeza</h3>
+                        <p>Jogo de cartas feito com funcionamento em JavaScript.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Espaço reservado para a foto do projeto -->
+                            <div class="project-image-placeholder">
+                                <img src="/static/img/Home.png" alt="Anna Nunes" class="profile-img">
+
+                            </div>
+                        </div>
+                        <h3>Black Chat</h3>
+                        <p>Site de troca de conersas.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <!-- Espaço reservado para a foto do projeto -->
+                            <div class="project-image-placeholder">
+                                <img src="/static/img/chat_4.png" alt="Anna Nunes" class="profile-img">
+
+                            </div>
+                        </div>
+                        <h3>BatCar</h3>
+                        <p>Aplicação web para gerenciamento de tarefas e produtividade de locação de veiculo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato para discutirmos seu próximo projeto!</p>
+                <div class="contact-info">
+                    <p>Email: annaluizanunes007@gmail.com</p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/anna-nunes-a86333300/" target="_blank">Anna Nunes</a></p>
+                    <p>GitHub: <a href="https://github.com/annanunez" target="_blank">Anna Nunes</a></p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anna Nunes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript para o menu mobile
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            
+            // Fechar menu ao clicar em um link
+            const navItems = document.querySelectorAll('.nav-links a');
+            navItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
