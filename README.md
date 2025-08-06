@@ -1,5 +1,7 @@
 #### **Portfólio Pessoal - Anna Nunes | Desenvolvedora Web**
 
+---
+
 ### 📝 Descrição
 Este projeto é um portfólio pessoal desenvolvido por Anna Nunes, estudante de Desenvolvimento de Sistemas. Ele foi criado com o objetivo de apresentar suas habilidades técnicas, perfil profissional e projetos desenvolvidos durante sua formação.
 
