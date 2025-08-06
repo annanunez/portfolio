@@ -1,5 +1,4 @@
-#### **Portfólio Pessoal - Anna Nunes | Desenvolvedora Web**
-
+#### Portfólio Pessoal - Anna Nunes | Desenvolvedora Web
 ---
 
 ### 📝 Descrição
