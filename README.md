@@ -34,14 +34,18 @@ Figma/Canva/Miro — Criação de protótipos e identidade visual dos projetos.
 VSCode — Edição e desenvolvimento do projeto.
 
 ### 📁 Estrutura do Projeto
-📂 static
- ├── 📁 img
- │    ├── IMG_0854_VSCO.JPEG   # Foto de perfil
- │    ├── Home.png             # Projeto Black Chat
- │    ├── chat_4.png           # Projeto BatCar
- │    └── Pagina Index.png     # Projeto Cartas da Realeza
- └── 📁 style
-      └── styles.css           # Estilo completo do site
+
+* 📂 **static**
+
+  * 📁 **img**
+
+    * `IMG_0854_VSCO.JPEG` — Foto de perfil
+    * `Home.png` — Projeto Black Chat
+    * `chat_4.png` — Projeto BatCar
+    * `Pagina Index.png` — Projeto Cartas da Realeza
+  * 📁 **style**
+
+    * `styles.css` — Estilo completo do site
 
 📄 index.html                   # Página principal do portfólio
 
